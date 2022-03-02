@@ -16,8 +16,9 @@ import (
 
 // used in tests
 var (
-	disableMacOSChecks bool
-	disableLinuxChecks bool
+	disableMacOSChecks   bool
+	disableLinuxChecks   bool
+	disableFreeBSDChecks bool
 )
 
 type UnsupportedSpyError struct {
